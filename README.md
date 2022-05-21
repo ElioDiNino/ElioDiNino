@@ -1,4 +1,8 @@
-### Hi there 👋
+<p align="center">
+  <img width=30% src="https://github.com/ElioDiNino/ElioDiNino/blob/master/profile.png" alt="Profile Picture">
+</p>
+
+![Intro Line](https://github.com/ElioDiNino/ElioDiNino/blob/master/intro.gif)
 
 <!--
 **ElioDiNino/ElioDiNino** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
