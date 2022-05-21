@@ -14,3 +14,24 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+<!-- <details>
+  <summary>Old Projects</summary>
+  
+  ### Autonomous Claw
+  
+  ### Harvard's CS50
+  
+  ### OpenProcessing
+  
+  https://openprocessing.org/user/143581
+  
+  ### Scratch
+  
+  https://scratch.mit.edu/projects/426417770
+  
+  ### Python
+  
+  Repo to come
+  
+</details> -->
