@@ -30,10 +30,11 @@ I am a driven UBC Engineering student interested in computers and software. In m
   
   <br/>
   
+  One of my values is to always continue learning. To uphold this, I pursue projects that require me to learn new skills and I seek new experiences, often outside of my comfort zone. I also look to meet new people and challenge myself whenever I can. I believe that this continuous learning and seeking of challenges is important to my growth and adaptability.
+  
   My hard-working nature and natural leadership skills make me a valuable team member who can both listen and lead if needed. Furthermore, my attention to detail and organizational skills contribute to the timely completion of high-quality deliverables. As a result of these core attributes, along with my past experiences and promising future, I was awarded full-ride scholarships to both UBC and McMaster University.
 
-  One of my values is to always continue learning. To uphold this, I pursue projects that require me to learn new skills and I seek new experiences, often outside of my comfort zone. I also look to meet new people and challenge myself whenever I can. I believe that this continuous learning and seeking of challenges is important to my growth and adaptability.
-
+  
   ## :dart: Professional Goal
   I hope to use my current and future skills to pursue a career in the Computer Engineering field. To get there I am looking to try many different roles through co-ops and volunteering opportunities at UBC. Following this, I will seek a career that I am passionate about and one that makes a positive impact on the world.
   
