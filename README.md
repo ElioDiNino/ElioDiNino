@@ -50,6 +50,9 @@ I am a driven UBC Engineering student interested in computers and software. In m
   ### :abacus: [Harvard's CS50](https://github.com/ElioDiNino/CS50)
   This is a collection of the code I wrote for [Harvard's CS50](https://cs50.harvard.edu/) that I am proud of and that was of interest to me. I took part in the course during the [Spring 2021 session](https://cs50.harvard.edu/college/2021/spring/).
   
+  ### :shield: [UBC Bot](https://github.com/ElioDiNino/UBC-Bot)
+  This was my friend and I's final project for CS50. It is a basic Discord moderation bot that has a mix of different commands. It is quite basic but we used it as a way to learn about Discord.js and learn the basics for future Discord bot projects.
+  
   ### :pencil2: [Scratch](https://scratch.mit.edu/projects/426417770)
   This is the Scratch project I made as part of CS50's [Week 0 tasks](https://cs50.harvard.edu/college/2021/spring/psets/0/scratch/). It is a simple but fun game with randomized music and an infinite scrolling background.
   
@@ -74,6 +77,9 @@ I am a driven UBC Engineering student interested in computers and software. In m
 
   ### :computer: [Personal Website](https://github.com/ElioDiNino/eliodinino.com)
   This is something I have long desired to work on. I have quite a bit of experience building websites with website builders such as Wix, WordPress, and Squarespace, but I don't have much experience with actually programming a website. I plan on using React to build my site as it has applicable skills to UAS and is something I could see myself using in the future. I will continue to use Wix for my [photography website](https://photography.eliodinino.com) for now, but I may change that in the future.
+  
+  ### :robot: [Quote Bot](https://github.com/ElioDiNino/Quote)
+  This is a rehost of [nakayoshi](https://github.com/nakayoshi)'s Discord Quote bot which was taken offline in early 2022. In the process of rehosting it I also updated some of the bot's commands and patched several security vulnerabilities. As of now the bot has been up and running without any issues. Going forward I want to further improve the bot's help command (by using an [embed message](https://discordjs.guide/popular-topics/embeds.html#embed-preview)), add slash command support, and patch [this vulnerability](https://github.com/nakayoshi/quote/issues/5).
   
 </details>
 
