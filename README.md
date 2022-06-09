@@ -5,16 +5,16 @@
 ![Intro Line](https://github.com/ElioDiNino/ElioDiNino/blob/master/intro.gif)
 
 <div id="badges" align="center">
-  <a href="https://www.linkedin.com/in/eliodinino/">
+  <a href="https://www.linkedin.com/in/eliodinino/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-22242d?logo=linkedin&logoColor=white&style=for-the-badge" alt="LinkedIn Badge">
   </a>
-  <a href="https://eliodinino.com">
+  <a href="https://eliodinino.com" target="_blank">
     <img src="https://img.shields.io/badge/website-22242d?style=for-the-badge&logo=Google-chrome&logoColor=white" alt="Website Badge">
   </a>
-  <a href="mailto:contact@eliodinino.com">
+  <a href="mailto:contact@eliodinino.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-22242d?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge">
   </a>
-  <a href="https://www.instagram.com/eliodinino/">
+  <a href="https://www.instagram.com/eliodinino/" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-22242d?logo=instagram&logoColor=white&style=for-the-badge" alt="Instagram Badge">
   </a>
 </div>
