@@ -5,16 +5,16 @@
 ![Intro Line](https://github.com/ElioDiNino/ElioDiNino/blob/master/intro.gif)
 
 <div id="badges" align="center">
-  <a href="https://www.linkedin.com/in/eliodinino/" target="_blank">
+  <a href="https://www.linkedin.com/in/eliodinino/">
     <img src="https://img.shields.io/badge/LinkedIn-22242d?logo=linkedin&logoColor=white&style=for-the-badge" alt="LinkedIn Badge">
   </a>
-  <a href="https://eliodinino.com" target="_blank">
+  <a href="https://eliodinino.com">
     <img src="https://img.shields.io/badge/website-22242d?style=for-the-badge&logo=Google-chrome&logoColor=white" alt="Website Badge">
   </a>
-  <a href="mailto:contact@eliodinino.com" target="_blank">
+  <a href="mailto:contact@eliodinino.com">
     <img src="https://img.shields.io/badge/Email-22242d?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge">
   </a>
-  <a href="https://www.instagram.com/eliodinino/" target="_blank">
+  <a href="https://www.instagram.com/eliodinino/">
     <img src="https://img.shields.io/badge/Instagram-22242d?logo=instagram&logoColor=white&style=for-the-badge" alt="Instagram Badge">
   </a>
 </div>
@@ -72,6 +72,7 @@ I am a driven UBC Engineering student interested in computers and software. In m
   ### :airplane: [UBC Unmanned Aircraft Systems](https://ubcuas.com)
   I work on the software subteam for UBC UAS, a design team focused on designing semi-autonomous drones. The team repositories can be seen [here](https://gitlab.com/ubcuas) and my GitLab profile [here](https://gitlab.com/ElioDiNino). I have worked on a variety of microsystems for the team, but my notable contributions are as follows:
   - [GCOM-X](https://gitlab.com/ubcuas/gcom-x): This is our main ground station control software. I have been helping work on the frontend redesign and adding new functionality for full mission control. Our in-progress branch can be seen [here](https://gitlab.com/ubcuas/gcom-x/-/tree/47-gcom-overhaul) with photos in [this ongoing merge request](https://gitlab.com/ubcuas/gcom-x/-/merge_requests/55).
+  - [ACOM](https://gitlab.com/ubcuas/acom): Running on the drone, this is our main communication with the ground station. I worked on adding support for controlling a winch system, monitoring RC connection, and keeping track of the battery usage.
   - [AAA](https://gitlab.com/ubcuas/aaa): This is our repository for active aircraft avoidance that integrates with GCOM-X. I helped write it from the ground up and am working on integrating it with our other systems.
   - [Odroid Scripts](https://gitlab.com/ubcuas/odroid-scripts): Our drones are all equipped with Odroids, small Linux computers that we use to load code onto and interface with the rest of the drone, including the flight controller. This repository is a collection of scripts that have been made for the Odroids. I helped work on the syncing scripts for grabbing images taken on the drone and transferring them as quickly as possible over SSH then displaying them. [The first one](https://gitlab.com/ubcuas/odroid-scripts/-/blob/master/syncing.sh) I wrote at our competition in May 2022 and is a bash script that uses [Rsync](https://rsync.samba.org/) to copy the images and then we used a separate program to display them. Following this, I made a [revised program](https://gitlab.com/ubcuas/odroid-scripts/-/blob/master/syncing.py) that combines the functionality of both and runs 3x faster.
 
