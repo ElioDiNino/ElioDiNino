@@ -44,6 +44,9 @@ I am a driven UBC Engineering student interested in computers and software. In m
 <details>
   <summary>:card_file_box: Past Projects</summary>
   
+  ### :scroll: [SSC Scripts](https://github.com/ElioDiNino/SSC-Scripts)
+  This repository is home to different scripts for pulling information off of [UBC's SSC](https://ssc.adm.ubc.ca/) and then notifying the specified emails of what new information is available. It uses [UBC's Webmail](https://webmail.student.ubc.ca/) so that any user with a [CWL](https://it.ubc.ca/services/accounts-passwords/campus-wide-login-cwl) can use the scripts without having to worry about what email service they use for their primary email. An example of one of these scripts is [`grades.py`](https://github.com/ElioDiNino/SSC-Scripts/blob/master/src/grades.py) which checks for when new grades are posted. It can check for multiple course grades at a time and has many other customizable options.
+  
   ### :robot: [Autonomous Claw](https://github.com/ElioDiNino/Autonomous-Claw)
   This is a collection of the programming work that went into the autonomous claw project for UBC's APSC 101. The goal of the project was to semi-autonomously pick up objects of different sizes and weights and transport them to a drop-off location accurately and efficiently.
   
