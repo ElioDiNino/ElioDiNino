@@ -72,7 +72,7 @@ I am a driven UBC Engineering student interested in computers and software. In m
 <details open>
   <summary>:card_index_dividers: Current Projects</summary>
   
-  ### :airplane: [UBC Unmanned Aircraft Systems](https://ubcuas.com)
+  ### :airplane: [UBC Uncrewed Aircraft Systems](https://ubcuas.com)
   I work on the software subteam for UBC UAS, a design team focused on designing semi-autonomous drones. The team repositories can be seen [here](https://gitlab.com/ubcuas) and my GitLab profile [here](https://gitlab.com/ElioDiNino). I have worked on a variety of microsystems for the team, but my notable contributions are as follows:
   - [GCOM-X](https://gitlab.com/ubcuas/gcom-x): This is our main ground station control software. I have been helping work on the frontend redesign and adding new functionality for full mission control. Our in-progress branch can be seen [here](https://gitlab.com/ubcuas/gcom-x/-/tree/47-gcom-overhaul) with photos in [this ongoing merge request](https://gitlab.com/ubcuas/gcom-x/-/merge_requests/55).
   - [ACOM](https://gitlab.com/ubcuas/acom): Running on the drone, this is our main communication with the ground station. I worked on adding support for controlling a winch system, monitoring RC connection, and keeping track of the battery usage.
