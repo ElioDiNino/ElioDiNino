@@ -1,3 +1,5 @@
+<!----- Picture & Links ----->
+
 <p id="profile-picture" align="center">
   <img width=30% src="https://github.com/ElioDiNino/ElioDiNino/blob/master/profile.png" alt="Profile Picture">
 </p>
@@ -21,6 +23,8 @@
 
 <br/>
 
+<!----- About Me ----->
+
 <h1 align="center">About Me</h1>
 
 I am a driven UBC Engineering student interested in computers and software. In my free time, I enjoy pursuing personal programming projects, cycling, playing soccer, learning about new technologies and [taking landscape photos](https://photography.eliodinino.com).
@@ -40,9 +44,14 @@ I am a driven UBC Engineering student interested in computers and software. In m
   
 </details>
 
+<!----- Projects ----->
+
 <h2 align="center">What I'm Up To</h2>
 <details>
   <summary>:card_file_box: Past Projects</summary>
+  
+  ### :robot: [Quote Bot](https://github.com/ElioDiNino/Quote)
+  This is a rehost of [nakayoshi](https://github.com/nakayoshi)'s Discord Quote bot which was taken offline in early 2022. In the process of rehosting it I updated some of the bot's commands and patched several security vulnerabilities. A few weeks after, I also completed an overhaul of the bot with slash command support, improved error-handling, thread channel support, patched [vulnerabilities](https://github.com/nakayoshi/quote/issues/5), and other improvements. Since the overhaul, the bot has been up and running for free on Google Cloud without any issues. I continue to keep the up to date with the latest Discord.js releases.
   
   ### :scroll: [SSC Scripts](https://github.com/ElioDiNino/SSC-Scripts)
   This repository is home to different scripts for pulling information off of [UBC's SSC](https://ssc.adm.ubc.ca/) and then notifying the specified emails of what new information is available. It uses [UBC's Webmail](https://webmail.student.ubc.ca/) so that any user with a [CWL](https://it.ubc.ca/services/accounts-passwords/campus-wide-login-cwl) can use the scripts without having to worry about what email service they use for their primary email. An example of one of these scripts is [`grades.py`](https://github.com/ElioDiNino/SSC-Scripts/blob/master/src/grades.py) which checks for when new grades are posted. It can check for multiple course grades at a time and has many other customizable options.
@@ -73,17 +82,32 @@ I am a driven UBC Engineering student interested in computers and software. In m
   <summary>:card_index_dividers: Current Projects</summary>
   
   ### :airplane: [UBC Uncrewed Aircraft Systems](https://ubcuas.com)
-  I work on the software subteam as the co-lead for UBC UAS, a design team focused on designing semi-autonomous drones. The team repositories can be seen [here](https://gitlab.com/ubcuas) and my GitLab profile [here](https://gitlab.com/ElioDiNino). I have worked on a variety of microsystems for the team, but my notable contributions are as follows:
-  - [GCOM-X](https://gitlab.com/ubcuas/gcom-x): This is our main ground station control software. I have been helping work on the frontend redesign and adding new functionality for full mission control. Our in-progress branch can be seen [here](https://gitlab.com/ubcuas/gcom-x/-/tree/47-gcom-overhaul) with photos in [this ongoing merge request](https://gitlab.com/ubcuas/gcom-x/-/merge_requests/55).
-  - [ACOM](https://gitlab.com/ubcuas/acom): Running on the drone, this is our main communication with the ground station. I worked on adding support for controlling a winch system, monitoring RC connection, and keeping track of the battery usage.
-  - [AAA](https://gitlab.com/ubcuas/aaa): This is our repository for active aircraft avoidance that integrates with GCOM-X. I helped write it from the ground up and am working on integrating it with our other systems.
-  - [Odroid Scripts](https://gitlab.com/ubcuas/odroid-scripts): Our drones are all equipped with Odroids, small Linux computers that we use to load code onto and interface with the rest of the drone, including the flight controller. This repository is a collection of scripts that have been made for the Odroids. I helped work on the syncing scripts for grabbing images taken on the drone and transferring them as quickly as possible over SSH then displaying them. [The first one](https://gitlab.com/ubcuas/odroid-scripts/-/blob/master/syncing.sh) I wrote at our competition in May 2022 and is a bash script that uses [Rsync](https://rsync.samba.org/) to copy the images and then we used a separate program to display them. Following this, I made a [revised program](https://gitlab.com/ubcuas/odroid-scripts/-/blob/master/syncing.py) that combines the functionality of both and runs 3x faster.
+  I work on the software subteam as a co-lead for UBC UAS, a design team focused on designing semi-autonomous drones. The team repositories can be seen [here](https://gitlab.com/ubcuas) and my GitLab profile [here](https://gitlab.com/ElioDiNino). This year, my focus as co-lead is keeping projects on track and supporting the 18 software subteam members where needed. That being said, with my past experience on the team, I got to work on a variety of microsystems. Some of my notable contributions as both a developer and as co-lead are as follows:
+  - Decreased microservices in use by 50% after co-designing a new software suite for 2 competitions
+  - Improved cross-platform compatibility with the use of Docker to better package programs
+  - Integrated a new camera system into the drone and software suite for use in machine vision
+  - [GCOM-X](https://gitlab.com/ubcuas/gcom-x): This is our main ground station control software. I helped work on the frontend redesign, updated the backend API, integrated a Django server with the React frontent, and added a login page to connect to competiton servers.
+  - [ACOM](https://gitlab.com/ubcuas/acom): Running on the drone, this is our main communication method with the ground station for the software subteam. I worked on adding support for controlling a winch system, monitoring RC connection, and keeping track of the battery usage.
+  
+  ### :school: UBC Course Projects
+  *Code access is available upon request for all projects
+  #### [Multi-Client Server](https://cpen221ubc.notion.site/Message-Queues-Pub-Sub-with-Twitter-c6656579f3794b268c74afcf0e9b4fe4) - CPEN 221
+  - Constructed a server supporting multiple simultaneous clients capable of interacting and fetching tweets from Twitter
+  - Enabled dual-server routing so that either server can be connected to, and no interruptions occur if one goes offline
+  - Followed security protocols by hashing and salting all passwords and encrypting incoming and outgoing data via AES
+  
+  #### Simple RISC Machine - CPEN 211
+  - Implemented a Turing Complete 16-bit RISC machine using System Verilog on an FPGA board in 3 weeks
+  - Subdivided the machine into smaller modules to be designed, tested, and debugged more easily
+  - Utilized pipelining to increase operations per cycle by 300% and go beyond course expectations
+  
+  #### [Graphs, Games, and Interplanetary Travel](https://cpen221ubc.notion.site/Graphs-Games-and-Interplanetary-Travel-eeac9d286c9e46b1838ebdeacbd5a123) - CPEN 221
+  - Collaboratively built the “Kamino Game” in Java and produced the most optimal solution to win the course competition
+  - Implemented graph and tree data structures with associated algorithms while optimizing time and space complexity
+  - Exercised best practices including unit testing, documentation, and encapsulation to ensure quality and correctness
 
   ### :computer: [Personal Website](https://github.com/ElioDiNino/eliodinino.com)
   This is something I had long desired to work on. I have quite a bit of experience building websites with services such as Wix, WordPress, and Squarespace, but I didn't have much experience with actually programming a website. I used React to build my site as it has applicable skills to UAS and is something I could see myself using in the future (although I understand it is far from the best thing to use for a static website). I am happy with my current implementation but I am looking to improve it going forward.
-  
-  ### :robot: [Quote Bot](https://github.com/ElioDiNino/Quote)
-  This is a rehost of [nakayoshi](https://github.com/nakayoshi)'s Discord Quote bot which was taken offline in early 2022. In the process of rehosting it I updated some of the bot's commands and patched several security vulnerabilities. A few weeks after, I also completed an overhaul of the bot with slash command support, improved error-handling, thread channel support, patched [vulnerabilities](https://github.com/nakayoshi/quote/issues/5), and other improvements. Since the overhaul, the bot has been up and running for free on Google Cloud without any issues. I continue to keep the up to date with the latest Discord.js releases.
   
 </details>
 
