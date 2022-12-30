@@ -91,7 +91,7 @@ I am a driven UBC Engineering student interested in computers and software. In m
   
   ### :school: UBC Course Projects
   *Code access is available upon request for all projects
-  #### [Multi-Client Server](https://cpen221ubc.notion.site/Message-Queues-Pub-Sub-with-Twitter-c6656579f3794b268c74afcf0e9b4fe4) - CPEN 221
+  #### [Multi-Client Server](https://cpen221-ubc.notion.site/Message-Queues-Pub-Sub-with-Twitter-c5965b28ed01482aad44dbaadac19b77) - CPEN 221
   - Constructed a server supporting multiple simultaneous clients capable of interacting and fetching tweets from Twitter
   - Enabled dual-server routing so that either server can be connected to, and no interruptions occur if one goes offline
   - Followed security protocols by hashing and salting all passwords and encrypting incoming and outgoing data via AES
@@ -101,7 +101,7 @@ I am a driven UBC Engineering student interested in computers and software. In m
   - Subdivided the machine into smaller modules to be designed, tested, and debugged more easily
   - Utilized pipelining to increase operations per cycle by 300% and go beyond course expectations
   
-  #### [Graphs, Games, and Interplanetary Travel](https://cpen221ubc.notion.site/Graphs-Games-and-Interplanetary-Travel-eeac9d286c9e46b1838ebdeacbd5a123) - CPEN 221
+  #### [Graphs, Games, and Interplanetary Travel](https://cpen221-ubc.notion.site/Graphs-Games-and-Interplanetary-Travel-79cb9a0844634b7288226639604eb0b0) - CPEN 221
   - Collaboratively built the “Kamino Game” in Java and produced the most optimal solution to win the course competition
   - Implemented graph and tree data structures with associated algorithms while optimizing time and space complexity
   - Exercised best practices including unit testing, documentation, and encapsulation to ensure quality and correctness
