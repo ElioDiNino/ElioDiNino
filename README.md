@@ -82,12 +82,12 @@ I am a driven UBC Engineering student interested in computers and software. In m
   <summary>:card_index_dividers: Current Projects</summary>
   
   ### :airplane: [UBC Uncrewed Aircraft Systems](https://ubcuas.com)
-  I work on the software subteam as a co-lead for UBC UAS, a design team focused on designing semi-autonomous drones. The team repositories can be seen [here](https://gitlab.com/ubcuas) and my GitLab profile [here](https://gitlab.com/ElioDiNino). This year, my focus as co-lead is keeping projects on track and supporting the 18 software subteam members where needed. That being said, with my past experience on the team, I got to work on a variety of microsystems. Some of my notable contributions as both a developer and as co-lead are as follows:
+  I work on the software subteam as a co-lead for UBC UAS, a design team focused on designing semi-autonomous drones. The team repositories can be seen [here](https://github.com/ubcuas). This year, my focus as co-lead is keeping projects on track and supporting the 18 software subteam members where needed. That being said, with my past experience on the team, I got to work on a variety of microsystems. Some of my notable contributions as both a developer and as co-lead are as follows:
   - Decreased microservices in use by 50% after co-designing a new software suite for 2 competitions
   - Improved cross-platform compatibility with the use of Docker to better package programs
   - Integrated a new camera system into the drone and software suite for use in machine vision
-  - [GCOM-X](https://gitlab.com/ubcuas/gcom-x): This is our main ground station control software. I helped work on the frontend redesign, updated the backend API, integrated a Django server with the React frontent, and added a login page to connect to competiton servers.
-  - [ACOM](https://gitlab.com/ubcuas/acom): Running on the drone, this is our main communication method with the ground station for the software subteam. I worked on adding support for controlling a winch system, monitoring RC connection, and keeping track of the battery usage.
+  - [GCOM-X](https://github.com/ubcuas/gcom-x): This is our main ground station control software. I helped work on the frontend redesign, updated the backend API, integrated a Django server with the React frontent, and added a login page to connect to competiton servers.
+  - [ACOM](https://github.com/ubcuas/acom): Running on the drone, this is our main communication method with the ground station for the software subteam. I worked on adding support for controlling a winch system, monitoring RC connection, and keeping track of the battery usage.
   
   ### :school: UBC Course Projects
   *Code access is available upon request for all projects
