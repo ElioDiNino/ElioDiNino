@@ -50,6 +50,23 @@ I am a driven UBC Computer Engineering student interested in computer hardware a
 <details>
   <summary>:card_file_box: Past Projects</summary>
   
+  ### :school: UBC Course Projects
+  *Code access is available upon request for all projects
+  #### [Multi-Client Server](https://cpen221-ubc.notion.site/Message-Queues-Pub-Sub-with-Twitter-c5965b28ed01482aad44dbaadac19b77) - CPEN 221
+  - Constructed a server supporting multiple simultaneous clients capable of interacting and fetching tweets from Twitter
+  - Enabled dual-server routing so that either server can be connected to, and no interruptions occur if one goes offline
+  - Followed security protocols by hashing and salting all passwords and encrypting incoming and outgoing data via AES
+  
+  #### Simple RISC Machine - CPEN 211
+  - Implemented a Turing Complete 16-bit RISC machine using System Verilog on an FPGA board in 3 weeks
+  - Subdivided the machine into smaller modules to be designed, tested, and debugged more easily
+  - Utilized pipelining to increase operations per cycle by 300% and go beyond course expectations
+  
+  #### [Graphs, Games, and Interplanetary Travel](https://cpen221-ubc.notion.site/Graphs-Games-and-Interplanetary-Travel-79cb9a0844634b7288226639604eb0b0) - CPEN 221
+  - Collaboratively built the “Kamino Game” in Java and produced the most optimal solution to win the course competition
+  - Implemented graph and tree data structures with associated algorithms while optimizing time and space complexity
+  - Exercised best practices including unit testing, documentation, and encapsulation to ensure quality and correctness
+  
   ### :airplane: [UBC Uncrewed Aircraft Systems](https://ubcuas.com)
   - Integrated a new camera system into the drone and software suite for use in machine vision
   - [ACOM](https://github.com/ubcuas/acom): Running on the drone, this is our main communication method with the ground station for the software subteam. I worked on adding support for controlling a winch system, monitoring RC connection, and keeping track of the battery usage.
@@ -91,24 +108,6 @@ I am a driven UBC Computer Engineering student interested in computer hardware a
   - Improved cross-platform compatibility with Docker containers and made related CI/CD pipelines with GitHub Actions (E.g. [ACOM](https://github.com/ubcuas/ACOM))
   - [UASITL](https://github.com/ubcuas/UASITL): Overhauled our simulation pipeline by supporting new vehicle types (planes and VTOLs) and building software images for additional computer architectures (ARMv7 and ARM64)
   - Introduced 4 new major projects to update our systems after co-designing a new software suite for 2 competitions
-  
-  
-  ### :school: UBC Course Projects
-  *Code access is available upon request for all projects
-  #### [Multi-Client Server](https://cpen221-ubc.notion.site/Message-Queues-Pub-Sub-with-Twitter-c5965b28ed01482aad44dbaadac19b77) - CPEN 221
-  - Constructed a server supporting multiple simultaneous clients capable of interacting and fetching tweets from Twitter
-  - Enabled dual-server routing so that either server can be connected to, and no interruptions occur if one goes offline
-  - Followed security protocols by hashing and salting all passwords and encrypting incoming and outgoing data via AES
-  
-  #### Simple RISC Machine - CPEN 211
-  - Implemented a Turing Complete 16-bit RISC machine using System Verilog on an FPGA board in 3 weeks
-  - Subdivided the machine into smaller modules to be designed, tested, and debugged more easily
-  - Utilized pipelining to increase operations per cycle by 300% and go beyond course expectations
-  
-  #### [Graphs, Games, and Interplanetary Travel](https://cpen221-ubc.notion.site/Graphs-Games-and-Interplanetary-Travel-79cb9a0844634b7288226639604eb0b0) - CPEN 221
-  - Collaboratively built the “Kamino Game” in Java and produced the most optimal solution to win the course competition
-  - Implemented graph and tree data structures with associated algorithms while optimizing time and space complexity
-  - Exercised best practices including unit testing, documentation, and encapsulation to ensure quality and correctness
 
   ### :computer: [Personal Website](https://github.com/ElioDiNino/eliodinino.com)
   This is something I had long desired to work on. I have quite a bit of experience building websites with services such as Wix, WordPress, and Squarespace, but I didn't have much experience with actually programming a website. I used React to build my site as it has applicable skills to UAS and is something I could see myself using in the future (although I understand it is far from the best thing to use for a static website). I am happy with my current implementation but I am looking to improve it going forward.
