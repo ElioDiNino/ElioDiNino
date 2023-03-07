@@ -27,7 +27,7 @@
 
 <h1 align="center">About Me</h1>
 
-I am a driven UBC Engineering student interested in computers and software. In my free time, I enjoy pursuing personal programming projects, cycling, playing soccer, learning about new technologies and [taking landscape photos](https://photography.eliodinino.com).
+I am a driven UBC Computer Engineering student interested in computer hardware and software. In my free time, I enjoy pursuing personal programming projects, cycling, playing soccer, learning about new technologies and [taking landscape photos](https://photography.eliodinino.com).
 
 <details>
   <summary>:spiral_notepad: Read More</summary>
@@ -36,11 +36,11 @@ I am a driven UBC Engineering student interested in computers and software. In m
   
   One of my values is to always continue learning. To uphold this, I pursue projects that require me to learn new skills and I seek new experiences, often outside of my comfort zone. I also look to meet new people and challenge myself whenever I can. I believe that this continuous learning and seeking of challenges is important to my growth and adaptability.
   
-  My hard-working nature and natural leadership skills make me a valuable team member who can both listen and lead if needed. Furthermore, my attention to detail and organizational skills contribute to the timely completion of high-quality deliverables. As a result of these core attributes, along with my past experiences and promising future, I was awarded full-ride scholarships to both UBC and McMaster University.
+  My hard-working nature and natural leadership skills make me a valuable team member who can both listen and lead if needed. Furthermore, my attention to detail and organizational skills contribute to the timely completion of high-quality deliverables. As a result of these core attributes, along with my past experiences, I was awarded full-ride scholarships to both UBC and McMaster University.
 
   
   ## :dart: Professional Goal
-  I hope to use my current and future skills to pursue a career in the Computer Engineering field. To get there I am looking to try many different roles through co-ops and volunteering opportunities at UBC. Following this, I will seek a career that I am passionate about and one that makes a positive impact on the world.
+  I plan to use my current and future skills to pursue a career in the Computer Engineering field. To get there I am trying many different roles through co-ops and volunteering opportunities at UBC. Following this, I will seek a career that I am passionate about and one that makes a positive impact on the world.
   
 </details>
 
@@ -50,8 +50,13 @@ I am a driven UBC Engineering student interested in computers and software. In m
 <details>
   <summary>:card_file_box: Past Projects</summary>
   
+  ### :airplane: [UBC Uncrewed Aircraft Systems](https://ubcuas.com)
+  - Integrated a new camera system into the drone and software suite for use in machine vision
+  - [ACOM](https://github.com/ubcuas/acom): Running on the drone, this is our main communication method with the ground station for the software subteam. I worked on adding support for controlling a winch system, monitoring RC connection, and keeping track of the battery usage.
+  - [GCOM-X](https://github.com/ubcuas/gcom-x): Our previous ground station control software. I helped work on the frontend redesign, updated the backend API, integrated a Django server with the React frontent, and added a login page to connect to competiton servers.
+  
   ### :robot: [Quote Bot](https://github.com/ElioDiNino/Quote)
-  This is a rehost of [nakayoshi](https://github.com/nakayoshi)'s Discord Quote bot which was taken offline in early 2022. In the process of rehosting it I updated some of the bot's commands and patched several security vulnerabilities. A few weeks after, I also completed an overhaul of the bot with slash command support, improved error-handling, thread channel support, patched [vulnerabilities](https://github.com/nakayoshi/quote/issues/5), and other improvements. Since the overhaul, the bot has been up and running for free on Google Cloud without any issues. I continue to keep the up to date with the latest Discord.js releases.
+  This is a rehost of [nakayoshi](https://github.com/nakayoshi)'s Discord Quote bot which was taken offline in early 2022. In the process of rehosting it I updated some of the bot's commands and patched several security vulnerabilities. A few weeks after, I also completed an overhaul of the bot with slash command support, improved error-handling, thread channel support, patched [vulnerabilities](https://github.com/nakayoshi/quote/issues/5), and other improvements. Since the overhaul, the bot has been up and running for free on Google Cloud without any issues. I continue to keep the bot up to date with the latest Discord.js and dependency releases.
   
   ### :scroll: [SSC Scripts](https://github.com/ElioDiNino/SSC-Scripts)
   This repository is home to different scripts for pulling information off of [UBC's SSC](https://ssc.adm.ubc.ca/) and then notifying the specified emails of what new information is available. It uses [UBC's Webmail](https://webmail.student.ubc.ca/) so that any user with a [CWL](https://it.ubc.ca/services/accounts-passwords/campus-wide-login-cwl) can use the scripts without having to worry about what email service they use for their primary email. An example of one of these scripts is [`grades.py`](https://github.com/ElioDiNino/SSC-Scripts/blob/master/src/grades.py) which checks for when new grades are posted. It can check for multiple course grades at a time and has many other customizable options.
@@ -82,12 +87,11 @@ I am a driven UBC Engineering student interested in computers and software. In m
   <summary>:card_index_dividers: Current Projects</summary>
   
   ### :airplane: [UBC Uncrewed Aircraft Systems](https://ubcuas.com)
-  I work on the software subteam as a co-lead for UBC UAS, a design team focused on designing semi-autonomous drones. The team repositories can be seen [here](https://github.com/ubcuas). This year, my focus as co-lead is keeping projects on track and supporting the 18 software subteam members where needed. That being said, with my past experience on the team, I got to work on a variety of microsystems. Some of my notable contributions as both a developer and as co-lead are as follows:
-  - Decreased microservices in use by 50% after co-designing a new software suite for 2 competitions
-  - Improved cross-platform compatibility with the use of Docker to better package programs
-  - Integrated a new camera system into the drone and software suite for use in machine vision
-  - [GCOM-X](https://github.com/ubcuas/gcom-x): This is our main ground station control software. I helped work on the frontend redesign, updated the backend API, integrated a Django server with the React frontent, and added a login page to connect to competiton servers.
-  - [ACOM](https://github.com/ubcuas/acom): Running on the drone, this is our main communication method with the ground station for the software subteam. I worked on adding support for controlling a winch system, monitoring RC connection, and keeping track of the battery usage.
+  I work on the software subteam as a co-lead for UBC UAS, a design team focused on designing semi-autonomous drones. The team repositories can be seen [here](https://github.com/ubcuas). This year, my focus as co-lead is keeping projects on track and supporting the 18 software subteam members where needed. That being said, with my past experience on the team, I got to work on a variety of microsystems. Some of my notable contributions as both a developer and as co-lead can be seen below as well as in the past projects section.
+  - Improved cross-platform compatibility with Docker containers and made related CI/CD pipelines with GitHub Actions (E.g. [ACOM](https://github.com/ubcuas/ACOM))
+  - [UASITL](https://github.com/ubcuas/UASITL): Overhauled our simulation pipeline by supporting new vehicle types (planes and VTOLs) and building software images for additional computer architectures (ARMv7 and ARM64)
+  - Introduced 4 new major projects to update our systems after co-designing a new software suite for 2 competitions
+  
   
   ### :school: UBC Course Projects
   *Code access is available upon request for all projects
@@ -114,15 +118,3 @@ I am a driven UBC Engineering student interested in computers and software. In m
 <!-- <div id="language-stats" align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ElioDiNino&layout=compact&langs_count=6&bg_color=22242d&hide_border=true&text_color=c9d1d9&title_color=c9d1d9">
 </div> -->
-
-<!--
-Ideas:
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
