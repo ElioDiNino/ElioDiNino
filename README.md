@@ -49,6 +49,12 @@ I am a driven UBC Computer Engineering student interested in computer hardware a
 <h2 align="center">What I'm Up To</h2>
 <details>
   <summary>:card_file_box: Past Projects</summary>
+
+  ### :closed_lock_with_key: [3FA - Multi-Factor Authentication System](https://github.com/Computing-Collective/3FA)
+  - Created a backend API in Python using Flask and SQLite with over 20 endpoints
+  - Designed and implemented the authentication flow which included session and authentication tokens, encrypted communications, hashed passwords, and automatic timeouts to meet OWASP security standards
+  - Created GitHub workflows to automate testing for all parts of the system, create app releases and executables, package the backend as a Docker image, and automate dependency updates to reduce manual work by 500%
+  - Used Pytest to achieve 98% line and branch coverage as well as set up Postman to improve manual testing
   
   ### :school: UBC Course Projects
   *Code access is available upon request for all projects
@@ -104,7 +110,7 @@ I am a driven UBC Computer Engineering student interested in computer hardware a
   <summary>:card_index_dividers: Current Projects</summary>
   
   ### :airplane: [UBC Uncrewed Aircraft Systems](https://ubcuas.com)
-  I work on the software subteam as a co-lead for UBC UAS, a design team focused on designing semi-autonomous drones. The team repositories can be seen [here](https://github.com/ubcuas). This year, my focus as co-lead is keeping projects on track and supporting the 18 software subteam members where needed. That being said, with my past experience on the team, I got to work on a variety of microsystems. Some of my notable contributions as both a developer and as co-lead can be seen below as well as in the past projects section.
+  I lead as captain and formerly worked on the software subteam as a co-lead for UBC UAS, a design team focused on designing autonomous drones and their support systems. The team repositories can be seen [here](https://github.com/ubcuas). Last year, my focus as co-lead was keeping projects on track and supporting the 18 software subteam members where needed. That being said, with my past experience on the team, I got to work on a variety of microsystems. Some of my notable contributions as both a developer and as co-lead can be seen below as well as in the past projects section.
   - Improved cross-platform compatibility with Docker containers and made related CI/CD pipelines with GitHub Actions (E.g. [ACOM](https://github.com/ubcuas/ACOM))
   - [UASITL](https://github.com/ubcuas/UASITL): Overhauled our simulation pipeline by supporting new vehicle types (planes and VTOLs) and building software images for additional computer architectures (ARMv7 and ARM64)
   - Introduced 4 new major projects to update our systems after co-designing a new software suite for 2 competitions
