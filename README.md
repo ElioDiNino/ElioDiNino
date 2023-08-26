@@ -53,6 +53,13 @@ I am a driven UBC Computer Engineering student interested in computer hardware a
 <details>
   <summary>:card_file_box: Past Projects</summary>
 
+  ### :ocean: [D-Wave Quantum](https://dwavequantum.com/)
+  I worked as a DevOps Co-op to improve existing systems and introduce new technologies. Although none of the code or systems I have developed are public, here is a summary of my biggest accomplishments:
+  - Implemented a new Kubernetes-based development platform utilizing Terraform to automate setup and define infrastructure as code, simplifying programming environments for over 80 individuals and boosting efficiency by 20%
+  - Overhauled the build and publication process of company Docker images by creating a Jenkins function that runs builds in the on-premises Kubernetes cluster, reducing work required by 95% and eliminating previous cloud costs
+  - Centralized company Docker images in a single repository that automated all build, testing, and publishing steps with only 6 lines of configuration per image, eliminating redundant Jenkins pipelines and improving overall organization
+  - Developed Grafana dashboards integrated with Prometheus metrics, enabling real-time monitoring of service health and key statistics, resulting in improved visibility and informed decision-making
+
   ### :closed_lock_with_key: [3FA - Multi-Factor Authentication System](https://github.com/Computing-Collective/3FA)
   - Created a backend API in Python using Flask and SQLite with over 20 endpoints
   - Designed and implemented the authentication flow which included session and authentication tokens, encrypted communications, hashed passwords, and automatic timeouts to meet OWASP security standards
@@ -111,19 +118,13 @@ I am a driven UBC Computer Engineering student interested in computer hardware a
 
 <details open>
   <summary>:card_index_dividers: Current Projects</summary>
-
-  ### :ocean: [D-Wave Quantum](https://dwavequantum.com/)
-  I work as a DevOps Co-op to improve existing systems and introduce new technologies. Although none of the code or systems I have developed are public, here is a summary of my biggest accomplishments so far:
-  - Implemented a new Kubernetes-based development platform utilizing Terraform to automate setup and define infrastructure as code, simplifying programming environments for over 80 individuals and boosting efficiency by 20%
-  - Overhauled the build and publication process of company Docker images by creating a Jenkins function that runs builds in the on-premises Kubernetes cluster, reducing work required by 95% and eliminating previous cloud costs
-  - Centralized company Docker images in a single repository that automated all build, testing, and publishing steps with only 6 lines of configuration per image, eliminating redundant Jenkins pipelines and improving overall organization
-  - Developed Grafana dashboards integrated with Prometheus metrics, enabling real-time monitoring of service health and key statistics, resulting in improved visibility and informed decision-making
   
   ### :airplane: [UBC Uncrewed Aircraft Systems](https://ubcuas.com)
   I lead as captain and formerly worked on the software subteam as a co-lead for UBC UAS, a design team focused on designing autonomous drones and their support systems. The team repositories can be seen [here](https://github.com/ubcuas). Last year, my focus as co-lead was keeping projects on track and supporting the 18 software subteam members where needed. That being said, with my past experience on the team, I got to work on a variety of microsystems. Some of my notable contributions as both a developer and as co-lead can be seen below as well as in the past projects section.
   - Improved cross-platform compatibility with Docker containers and made related CI/CD pipelines with GitHub Actions (E.g. [ACOM](https://github.com/ubcuas/ACOM))
   - [UASITL](https://github.com/ubcuas/UASITL): Overhauled our simulation pipeline by supporting new vehicle types (planes and VTOLs) and building software images for additional computer architectures (ARMv7 and ARM64)
   - Introduced 4 new major projects to update our systems after co-designing a new software suite for 2 competitions
+  - Remade our website using Hugo and Netlify to allow for more customization, free hosting, and to improve the visuals
 
   ### :computer: [Personal Website](https://github.com/ElioDiNino/eliodinino.com)
   This is something I had long desired to work on. I have quite a bit of experience building websites with services such as Wix, WordPress, and Squarespace, but I didn't have much experience with actually programming a website. I used React to build my site as it has applicable skills to UAS and is something I could see myself using in the future (although I understand it is far from the best thing to use for a static website). I am happy with my current implementation but I am looking to improve it going forward.
