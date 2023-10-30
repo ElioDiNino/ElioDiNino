@@ -60,11 +60,10 @@ I am a driven UBC Computer Engineering student passionate about software develop
   - Developed Grafana dashboards integrated with Prometheus metrics, enabling real-time monitoring of service health and key statistics, resulting in improved visibility and informed decision-making
   - Pioneered a Terraform provider template in Golang which allowed multiple internal providers to be created and automatically deployed to Artifactory for general use
 
-
   ### :closed_lock_with_key: [3FA - Multi-Factor Authentication System](https://github.com/Computing-Collective/3FA)
-  - Created a backend API in Python using Flask and SQLite with over 20 endpoints
+  - Created a backend API in Python using Flask and SQLite with over 20 endpoints to authenticate users and serve files
   - Designed and implemented the authentication flow which included session and authentication tokens, encrypted communications, hashed passwords, and automatic timeouts to meet OWASP security standards
-  - Created GitHub workflows to automate testing for all parts of the system, create app releases and executables, package the backend as a Docker image, and automate dependency updates to reduce manual work by 500%
+  - Reduced manual work by 7x with GitHub workflows to automate testing for all parts of the system, create app releases and executables, package the backend as a Docker image, and automated dependency updates
   - Used Pytest to achieve 98% line and branch coverage as well as set up Postman to improve manual testing
   
   ### :school: UBC Course Projects
@@ -109,7 +108,7 @@ I am a driven UBC Computer Engineering student passionate about software develop
   This is the Scratch project I made as part of CS50's [Week 0 tasks](https://cs50.harvard.edu/college/2021/spring/psets/0/scratch/). It is a simple but fun game with randomized music and an infinite scrolling background.
   
   ### :snake: [Python Learning](https://github.com/ElioDiNino/Python-Learning)
-  This is a collection of the Python code I wrote for a high school programming class where we followed the lessons and tasks from [Program Arcade Games](http://programarcadegames.com/). At the end I also did a final project exploring machine learning using the [Titanic dataset](https://www.kaggle.com/c/titanic).
+  This is a collection of the Python code I wrote for a high school programming class where we followed the lessons and tasks from [Program Arcade Games](http://programarcadegames.com/). At the end, I also did a final project exploring machine learning using the [Titanic dataset](https://www.kaggle.com/c/titanic).
   
   ### :joystick: [OpenProcessing](https://openprocessing.org/user/143581)
   This is a site I used as part of one of my high school programming classes. It uses [p5js](https://p5js.org/) and I used it to make a couple of different games and get experience with object-oriented programming and other common programming principles.
