@@ -30,20 +30,19 @@
 
 <h1 align="center">About Me</h1>
 
-I am a driven UBC Computer Engineering student interested in computer hardware and software. In my free time, I enjoy pursuing personal programming projects, cycling, playing soccer, learning about new technologies and [taking landscape photos](https://photography.eliodinino.com).
+I am a driven UBC Computer Engineering student passionate about software development and technology. I have an abundance of experience working in teams to solve challenges with innovative software solutions, ranging from quantum computing pipelines to autonomous aircraft systems.
 
 <details>
   <summary>:spiral_notepad: Read More</summary>
   
   <br/>
   
-  One of my values is to always continue learning. To uphold this, I pursue projects that require me to learn new skills and I seek new experiences, often outside of my comfort zone. I also look to meet new people and challenge myself whenever I can. I believe that this continuous learning and seeking of challenges is important to my growth and adaptability.
-  
-  My hard-working nature and natural leadership skills make me a valuable team member who can both listen and lead if needed. Furthermore, my attention to detail and organizational skills contribute to the timely completion of high-quality deliverables. As a result of these core attributes, along with my past experiences, I was awarded full-ride scholarships to both UBC and McMaster University.
+  In my free time, I enjoy pursuing personal programming projects, cycling, playing soccer, flying drones, learning about new technologies, and [taking landscape photos](https://photography.eliodinino.com). Within the university, I contribute as a Teaching Assistant and lead a team of 70 students on [UBC Uncrewed Aircraft Systems](https://ubcuas.com).
 
+  My commitment to learning drives me to take on projects that require gaining new skills and pursuing challenges outside my comfort zone. I believe that continuous learning and embracing new experiences are pivotal to personal growth and adaptability.
   
   ## :dart: Professional Goal
-  I plan to use my current and future skills to pursue a career in the Computer Engineering field. To get there I am trying many different roles through co-ops and volunteering opportunities at UBC. Following this, I will seek a career that I am passionate about and one that makes a positive impact on the world.
+  I'm on a mission to build impactful technologies through scalable software, courageous innovation, and ambitious leadership while relentlessly pursuing my passion for contributing to technology to better society.
   
 </details>
 
@@ -59,6 +58,8 @@ I am a driven UBC Computer Engineering student interested in computer hardware a
   - Overhauled the build and publication process of company Docker images by creating a Jenkins function that runs builds in the on-premises Kubernetes cluster, reducing work required by 95% and eliminating previous cloud costs
   - Centralized company Docker images in a single repository that automated all build, testing, and publishing steps with only 6 lines of configuration per image, eliminating redundant Jenkins pipelines and improving overall organization
   - Developed Grafana dashboards integrated with Prometheus metrics, enabling real-time monitoring of service health and key statistics, resulting in improved visibility and informed decision-making
+  - Pioneered a Terraform provider template in Golang which allowed multiple internal providers to be created and automatically deployed to Artifactory for general use
+
 
   ### :closed_lock_with_key: [3FA - Multi-Factor Authentication System](https://github.com/Computing-Collective/3FA)
   - Created a backend API in Python using Flask and SQLite with over 20 endpoints
@@ -85,6 +86,7 @@ I am a driven UBC Computer Engineering student interested in computer hardware a
   
   ### :airplane: [UBC Uncrewed Aircraft Systems](https://ubcuas.com)
   - Integrated a new camera system into the drone and software suite for use in machine vision
+  - Reduced image streaming latency from 12s to 1s with a shell script running on an onboard Linux microcomputer
   - [ACOM](https://github.com/ubcuas/acom): Running on the drone, this is our main communication method with the ground station for the software subteam. I worked on adding support for controlling a winch system, monitoring RC connection, and keeping track of the battery usage.
   - [GCOM-X](https://github.com/ubcuas/gcom-x): Our previous ground station control software. I helped work on the frontend redesign, updated the backend API, integrated a Django server with the React frontent, and added a login page to connect to competiton servers.
   
@@ -124,7 +126,8 @@ I am a driven UBC Computer Engineering student interested in computer hardware a
   - Improved cross-platform compatibility with Docker containers and made related CI/CD pipelines with GitHub Actions (E.g. [ACOM](https://github.com/ubcuas/ACOM))
   - [UASITL](https://github.com/ubcuas/UASITL): Overhauled our simulation pipeline by supporting new vehicle types (planes and VTOLs) and building software images for additional computer architectures (ARMv7 and ARM64)
   - Introduced 4 new major projects to update our systems after co-designing a new software suite for 2 competitions
-  - Remade our website using Hugo and Netlify to allow for more customization, free hosting, and to improve the visuals
+  - Revamped the team website using an opensource Go framework (Hugo) to decrease load times from 10s to 0.7s
+  - Increased team documentation and task tracking by over 5x after integrating Jira and Confluence into our workflows
 
   ### :computer: [Personal Website](https://github.com/ElioDiNino/eliodinino.com)
   This is something I had long desired to work on. I have quite a bit of experience building websites with services such as Wix, WordPress, and Squarespace, but I didn't have much experience with actually programming a website. I used React to build my site as it has applicable skills to UAS and is something I could see myself using in the future (although I understand it is far from the best thing to use for a static website). I am happy with my current implementation but I am looking to improve it going forward.
