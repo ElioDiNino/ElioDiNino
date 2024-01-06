@@ -52,6 +52,9 @@ I am a driven UBC Computer Engineering student passionate about software develop
 <details>
   <summary>:card_file_box: Past Projects</summary>
 
+  ### :computer: [Personal Website](https://github.com/ElioDiNino/eliodinino.com)
+  This is something I had long desired to work on. I have quite a bit of experience building websites with services such as Wix, WordPress, and Squarespace, but I didn't have much experience with actually programming a website. I used React to build my site as it has applicable skills to UAS and is something I could see myself using in the future (although I understand it is far from the best thing to use for a static website). I am happy with my current implementation but I am looking to improve it going forward.
+
   ### :ocean: [D-Wave Quantum](https://dwavequantum.com/)
   I worked as a DevOps Co-op to improve existing systems and introduce new technologies. Although none of the code or systems I have developed are public, here is a summary of my biggest accomplishments:
   - Implemented a new Kubernetes-based development platform utilizing Terraform to automate setup and define infrastructure as code, simplifying programming environments for over 80 individuals and boosting efficiency by 20%
@@ -124,13 +127,15 @@ I am a driven UBC Computer Engineering student passionate about software develop
   I lead as captain and formerly worked on the software subteam as a co-lead for UBC UAS, a design team focused on designing autonomous drones and their support systems. The team repositories can be seen [here](https://github.com/ubcuas). Last year, my focus as co-lead was keeping projects on track and supporting the 18 software subteam members where needed. That being said, with my past experience on the team, I got to work on a variety of microsystems. Some of my notable contributions as both a developer and as co-lead can be seen below as well as in the past projects section.
   - Improved cross-platform compatibility with Docker containers and made related CI/CD pipelines with GitHub Actions (E.g. [ACOM](https://github.com/ubcuas/ACOM))
   - [UASITL](https://github.com/ubcuas/UASITL): Overhauled our simulation pipeline by supporting new vehicle types (planes and VTOLs) and building software images for additional computer architectures (ARMv7 and ARM64)
-  - Introduced 4 new major projects to update our systems after co-designing a new software suite for 2 competitions
   - Revamped the team website using an opensource Go framework (Hugo) to decrease load times from 10s to 0.7s
   - Increased team documentation and task tracking by over 5x after integrating Jira and Confluence into our workflows
 
-  ### :computer: [Personal Website](https://github.com/ElioDiNino/eliodinino.com)
-  This is something I had long desired to work on. I have quite a bit of experience building websites with services such as Wix, WordPress, and Squarespace, but I didn't have much experience with actually programming a website. I used React to build my site as it has applicable skills to UAS and is something I could see myself using in the future (although I understand it is far from the best thing to use for a static website). I am happy with my current implementation but I am looking to improve it going forward.
-  
+  ### :globe_with_meridians: Home Server & Security System
+  Leveraging the synergy between [Tailscale](https://tailscale.com/) and [Home Assistant](https://www.home-assistant.io/), I've established a distributed home server network alongside a home security system. My tailnet (Tailscale network) includes a variety of devices including Linux, MacOS, and Windows machines as well as Android smartphones, an Apple TV, and a Google Chromecast. With a fine-tuned tailnet policy file I can securely remote into other devices, route my traffic through selected devices, and restrict the access that certain devices have (e.g. smartphones being used as cameras can't access other devices). This setup not only facilitates the execution of projects and applications on continuously connected remote devices but also enables the creation of a robust network of cameras using repurposed smartphones.
+
+  The security system I've implemented involves a Dockerized Home Assistant instance operating on my Linux machine. This setup offers a live feed of camera footage, camera management functionalities, and real-time alerts for motion detection events.
+
+  My future roadmap involves expanding the tailnet by integrating additional devices to amplify computational capabilities and augment the surveillance network by incorporating more cameras. Moreover, I plan to set up more Home Assistant automations to automatically record motion events based on specific conditions (such as time or an armed status) and implement an efficient system for managing and purging older recordings.
 </details>
 
 <!-- <div id="language-stats" align="center">
