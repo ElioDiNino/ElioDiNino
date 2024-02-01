@@ -122,6 +122,9 @@ I am a driven UBC Computer Engineering student passionate about software develop
 
 <details open>
   <summary>:card_index_dividers: Current Projects</summary>
+
+  ### :eye: :bee: :m: - [IBM](https://ibm.com)
+  I work as a software developer intern on the [IBM Skills Network](https://github.com/ibm-skills-network) team. We develop applications to enable 7+ million users to be able to learn new concepts and technologies in interactive environments.
   
   ### :airplane: [UBC Uncrewed Aircraft Systems](https://ubcuas.com)
   I lead as captain and formerly worked on the software subteam as a co-lead for UBC UAS, a design team focused on designing autonomous drones and their support systems. The team repositories can be seen [here](https://github.com/ubcuas). Last year, my focus as co-lead was keeping projects on track and supporting the 18 software subteam members where needed. That being said, with my past experience on the team, I got to work on a variety of microsystems. Some of my notable contributions as both a developer and as co-lead can be seen below as well as in the past projects section.
