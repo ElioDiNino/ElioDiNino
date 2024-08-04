@@ -30,18 +30,20 @@
 
 <h1 align="center">About Me</h1>
 
-I am a driven UBC Computer Engineering student passionate about software development and technology. I have an abundance of experience working in teams to solve challenges with innovative software solutions, ranging from quantum computing pipelines to autonomous aircraft systems.
+I am a driven UBC Computer Engineering student passionate about building impactful software and contributing back to the community. I have an abundance of experience working in teams to solve challenges with innovative software solutions, ranging from quantum computing pipelines to autonomous aircraft systems.
 
 <details>
   <summary>:spiral_notepad: Read More</summary>
+
+  ### Branching Out
+
+  In my spare time, I enjoy pursuing personal programming projects, cycling, playing soccer, flying drones, learning about new technologies, and [taking landscape photos](https://photography.eliodinino.com) - you could say I’m a full-time developer by day, and a full-time hobbyist by night. Beyond academic pursuits, I enjoy being a Teaching Assistant for aspiring computer engineers, as well as contributing to large-scale projects such as the development I led on [UBC Uncrewed Aircraft Systems](https://ubcuas.com) to [place 3rd nationally in 2024](https://www.aerialevolution.ca/annual-student-competition/).
   
-  <br/>
-  
-  In my free time, I enjoy pursuing personal programming projects, cycling, playing soccer, flying drones, learning about new technologies, and [taking landscape photos](https://photography.eliodinino.com). Within the university, I contribute as a Teaching Assistant and lead a team of 70 students on [UBC Uncrewed Aircraft Systems](https://ubcuas.com).
+  ### New PRs
 
   My commitment to learning drives me to take on projects that require gaining new skills and pursuing challenges outside my comfort zone. I believe that continuous learning and embracing new experiences are pivotal to personal growth and adaptability.
   
-  ## :dart: Professional Goal
+  ### Queued Actions
   I'm on a mission to build impactful technologies through scalable software, courageous innovation, and ambitious leadership while relentlessly pursuing my passion for contributing to technology to better society.
   
 </details>
