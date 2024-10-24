@@ -54,16 +54,21 @@ I am a driven UBC Computer Engineering student passionate about building impactf
 <details>
   <summary>:card_file_box: Past Projects</summary>
 
+  ### :eye: :bee: :m: - [IBM](https://ibm.com)
+  I worked as a software developer intern on the [IBM Skills Network](https://github.com/ibm-skills-network) team. The team develops applications to enable 7+ million users to be able to learn new concepts and technologies in interactive environments.
+  
+  ### :airplane: [UBC Uncrewed Aircraft Systems](https://ubcuas.com)
+  I led as captain and also worked on the software subteam as a co-lead for UBC UAS, a design team focused on designing autonomous drones and their support systems. The team repositories can be seen [here](https://github.com/ubcuas). My focus as co-lead was keeping projects on track and supporting the 18 software subteam members where needed. That being said, with my past experience on the team, I got to work on a variety of microsystems. Some of my notable contributions as both a developer and as co-lead can be seen below as well as in the past projects section.
+  - Improved cross-platform compatibility with Docker containers and made related CI/CD pipelines with GitHub Actions (E.g. [ACOM](https://github.com/ubcuas/ACOM))
+  - [UASITL](https://github.com/ubcuas/UASITL): Overhauled our simulation pipeline by supporting new vehicle types (planes and VTOLs) and building software images for additional computer architectures (ARMv7 and ARM64)
+  - Revamped the team website using an opensource Go framework (Hugo) to decrease load times from 10s to 0.7s
+  - Increased team documentation and task tracking by over 5x after integrating Jira and Confluence into our workflows
+  
   ### :computer: [Personal Website](https://github.com/ElioDiNino/eliodinino.com)
   This is something I had long desired to work on. I have quite a bit of experience building websites with services such as Wix, WordPress, and Squarespace, but I didn't have much experience with actually programming a website. I used React to build my site as it has applicable skills to UAS and is something I could see myself using in the future (although I understand it is far from the best thing to use for a static website). I am happy with my current implementation but I am looking to improve it going forward.
 
   ### :ocean: [D-Wave Quantum](https://dwavequantum.com/)
-  I worked as a DevOps Co-op to improve existing systems and introduce new technologies. Although none of the code or systems I have developed are public, here is a summary of my biggest accomplishments:
-  - Implemented a new Kubernetes-based development platform utilizing Terraform to automate setup and define infrastructure as code, simplifying programming environments for over 80 individuals and boosting efficiency by 20%
-  - Overhauled the build and publication process of company Docker images by creating a Jenkins function that runs builds in the on-premises Kubernetes cluster, reducing work required by 95% and eliminating previous cloud costs
-  - Centralized company Docker images in a single repository that automated all build, testing, and publishing steps with only 6 lines of configuration per image, eliminating redundant Jenkins pipelines and improving overall organization
-  - Developed Grafana dashboards integrated with Prometheus metrics, enabling real-time monitoring of service health and key statistics, resulting in improved visibility and informed decision-making
-  - Pioneered a Terraform provider template in Golang which allowed multiple internal providers to be created and automatically deployed to Artifactory for general use
+  I worked as a DevOps Co-op to improve existing systems and introduce new technologies. Although none of the code or systems I have developed are public, check out [my LinkedIn](https://www.linkedin.com/in/eliodinino/) for a summary of my work.
 
   ### :closed_lock_with_key: [3FA - Multi-Factor Authentication System](https://github.com/Computing-Collective/3FA)
   - Created a backend API in Python using Flask and SQLite with over 20 endpoints to authenticate users and serve files
@@ -125,17 +130,7 @@ I am a driven UBC Computer Engineering student passionate about building impactf
 <details open>
   <summary>:card_index_dividers: Current Projects</summary>
 
-  ### :eye: :bee: :m: - [IBM](https://ibm.com)
-  I work as a software developer intern on the [IBM Skills Network](https://github.com/ibm-skills-network) team. We develop applications to enable 7+ million users to be able to learn new concepts and technologies in interactive environments.
-  
-  ### :airplane: [UBC Uncrewed Aircraft Systems](https://ubcuas.com)
-  I lead as captain and formerly worked on the software subteam as a co-lead for UBC UAS, a design team focused on designing autonomous drones and their support systems. The team repositories can be seen [here](https://github.com/ubcuas). Last year, my focus as co-lead was keeping projects on track and supporting the 18 software subteam members where needed. That being said, with my past experience on the team, I got to work on a variety of microsystems. Some of my notable contributions as both a developer and as co-lead can be seen below as well as in the past projects section.
-  - Improved cross-platform compatibility with Docker containers and made related CI/CD pipelines with GitHub Actions (E.g. [ACOM](https://github.com/ubcuas/ACOM))
-  - [UASITL](https://github.com/ubcuas/UASITL): Overhauled our simulation pipeline by supporting new vehicle types (planes and VTOLs) and building software images for additional computer architectures (ARMv7 and ARM64)
-  - Revamped the team website using an opensource Go framework (Hugo) to decrease load times from 10s to 0.7s
-  - Increased team documentation and task tracking by over 5x after integrating Jira and Confluence into our workflows
-
-  ### :globe_with_meridians: Home Server & Security System
+  ### :globe_with_meridians: [Homelab](https://github.com/ElioDiNino/Homelab)
   Leveraging the synergy between [Tailscale](https://tailscale.com/) and [Home Assistant](https://www.home-assistant.io/), I've established a distributed home server network alongside a home security system. My tailnet (Tailscale network) includes a variety of devices including Linux, macOS, and Windows machines as well as Android smartphones, an Apple TV, and a Google Chromecast. With a fine-tuned tailnet policy file I can securely remote into other devices, route my traffic through selected devices, and restrict the access that certain devices have (e.g. smartphones being used as cameras can't access other devices). This setup not only facilitates the execution of projects and applications on continuously connected remote devices but also enables the creation of a robust network of cameras using repurposed smartphones.
 
   The security system I've implemented involves a Dockerized Home Assistant instance operating on my Linux machine. This setup offers a live feed of camera footage, camera management functionalities, and real-time alerts for motion detection events.
