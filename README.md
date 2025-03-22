@@ -1,7 +1,7 @@
 <!----- Picture & Links ----->
 
 <p id="profile-picture" align="center">
-  <img width=30% src="https://github.com/ElioDiNino/ElioDiNino/blob/main/profile.png" alt="Profile Picture">
+  <img width=30% src="https://github.com/user-attachments/assets/4134fac0-4d4a-44f5-9b69-77c1c21bdbe5" alt="Profile Picture">
 </p>
 
 ![Intro Line](https://github.com/ElioDiNino/ElioDiNino/blob/master/intro.gif)
