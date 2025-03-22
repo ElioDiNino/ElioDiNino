@@ -4,8 +4,6 @@
   <img width=30% src="https://github.com/user-attachments/assets/4134fac0-4d4a-44f5-9b69-77c1c21bdbe5" alt="Profile Picture">
 </p>
 
-![Intro Line](https://github.com/ElioDiNino/ElioDiNino/blob/master/intro.gif)
-
 <div id="badges" align="center">
   <a href="https://www.linkedin.com/in/eliodinino/">
     <img src="https://img.shields.io/badge/LinkedIn-22242d?logo=linkedin&logoColor=white&style=for-the-badge" alt="LinkedIn Badge">
