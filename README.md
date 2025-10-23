@@ -75,7 +75,7 @@ I am a driven UBC Computer Engineering student passionate about building impactf
 
   ### :computer: [Personal Website](https://github.com/ElioDiNino/eliodinino.com)
 
-  This is something I had long desired to work on. I had quite a bit of experience building websites with services such as Wix, WordPress, and Squarespace, but I didn't have much experience actually programming a website. I used React to build my site as it had applicable skills to [UAS](#️airplane-ubc-uncrewed-aircraft-systems) and was something I saw myself using in the future (although I understood it is far from the best thing to use for a static website). With the solid foundation I built, I now only make occasional tweaks to the site from time to time.
+  This is something I had long desired to work on. I had quite a bit of experience building websites with services such as Wix, WordPress, and Squarespace, but I didn't have much experience actually programming a website. I used React to build my site as it had applicable skills to [UAS](#airplane-ubc-uncrewed-aircraft-systems) and was something I saw myself using in the future (although I understood it is far from the best thing to use for a static website). With the solid foundation I built, I now only make occasional tweaks to the site from time to time.
 
   ### :closed_lock_with_key: [3FA - Multi-Factor Authentication System](https://github.com/Computing-Collective/3FA)
 
